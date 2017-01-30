@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author Rafael
+ * @author Ruben Daniel Báez Muñiz A01411504
  */
 public class SPPRBaezMT01P2 {
 
@@ -17,19 +17,19 @@ public class SPPRBaezMT01P2 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        double B, H, P, Sup;
+        double Base, Altu, Per, Sup;
         Scanner kb = new Scanner (System.in);
         
         System.out.println("Ingresa la base");
-        B= kb.nextDouble();
+        Base= kb.nextDouble();
         System.out.println("Ingresa la altura");
-        H= kb.nextDouble();
+        Altu= kb.nextDouble();
         
-        Sup= B * H;
-        P= B + B + H + H;
+        Sup= Base * Altu;
+        Per= Altu + Altu + Base + Base;
         
         System.out.println("La superficie es=" + Sup);
-        System.out.println("El perímetro es=" + P);
+        System.out.println("El perímetro es=" + Per);
     }
     
 }
