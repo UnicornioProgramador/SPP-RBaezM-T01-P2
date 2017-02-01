@@ -28,8 +28,8 @@ public class SPPRBaezMT01P2 {
         Sup= Base * Altu;
         Per= Altu + Altu + Base + Base;
         
-        System.out.println("La superficie es=" + Sup);
-        System.out.println("El perímetro es=" + Per);
+        System.out.println("La superficie es:" + Sup);
+        System.out.println("El perímetro es:" + Per);
     }
     
 }
